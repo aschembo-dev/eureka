@@ -59,7 +59,7 @@ jobs:
         if: ${{ always() }}
         with:
           source_path: .
-          build_path: target
+          build_path: build/libs
           s3_bucket: codeguru-reviewer-test-cicd-bucket
 
       - name: Upload review result

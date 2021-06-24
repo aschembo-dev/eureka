@@ -37,7 +37,7 @@ jobs:
         if: ${{ always() }}
         with:
           source_path: .
-          s3_bucket: codeguru-reviewer-test-cicd-bucket
+          s3_bucket: codeguru-reviewer-a8aa9e5b-78c1-46b2-adcb-837cfee1b05d
 
       - name: Upload review result
         if: ${{ always() }}
